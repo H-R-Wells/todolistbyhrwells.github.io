@@ -57,7 +57,7 @@ function getAndUpdate() {
         localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
 
     }
-    else if (tit == ""){
+    else if (tit == "") {
         alert("Title cannot be empty!!!");
         console.log("List is updated");
 
@@ -114,7 +114,7 @@ function nothing() {
         console.log("Nothing in To-Do list");
         document.getElementById("nothingtodo").classList.remove("hidden");
     }
-    else{
+    else {
         document.getElementById("nothingtodo").classList.add("hidden");
     }
 }
@@ -154,6 +154,7 @@ function clearStorage() {
     }
     else {
         document.getElementById("nothingtodo").classList.add("hidden");
+        nothing();
     }
 }
 
@@ -175,13 +176,6 @@ add.addEventListener("click", () => {
 
 
 
-
-
-// add.addEventListener("click",()=>{
-//     if (document.getElementById("title").value==""){
-//         alert("Title can not be empty");
-//     }
-// })
 
 
 
