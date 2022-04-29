@@ -1,2 +1,2 @@
 # todolistbyhrwells.github.io
-Normal website to manage to do list
+Just a normal website to manage to do list
